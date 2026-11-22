@@ -1,0 +1,28 @@
+<mujoco model="axion_scene">
+  <include file="axion_arm.xml"/>
+
+  <statistic center="0.15 0 0.45" extent="1.0"/>
+
+  <visual>
+    <headlight diffuse="0.25 0.25 0.28" ambient="0.30 0.32 0.36" specular="0.1 0.1 0.1"/>
+    <rgba haze="0.08 0.10 0.14 1"/>
+    <global azimuth="135" elevation="-18" offwidth="1920" offheight="1080"/>
+    <quality shadowsize="4096"/>
+    <map fogstart="3" fogend="6" znear="0.01"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.16 0.19 0.24" rgb2="0.03 0.04 0.07" width="512" height="512"/>
+  </asset>
+
+  <worldbody>
+    <camera name="main" pos="2.00 -2.00 1.35" xyaxes="0.71 0.71 0 -0.33 0.33 0.88" mode="fixed"/>
+    <camera name="wide" pos="2.60 -2.40 1.70" xyaxes="0.68 0.73 0 -0.31 0.29 0.90" mode="fixed"/>
+    <camera name="side" pos="0.0 -2.20 0.75" xyaxes="1 0 0 0 0.24 0.97" mode="fixed"/>
+    <camera name="front" pos="2.40 0 0.75" xyaxes="0 1 0 -0.24 0 0.97" mode="fixed"/>
+
+    <!-- Ground platform (visual only) -->
+    <geom name="platform" type="box" pos="0 0 -0.025" size="0.70 0.55 0.025" rgba="0.07 0.08 0.10 1" contype="0" conaffinity="0"/>
+    <geom name="platform_rim" type="box" pos="0 0 -0.003" size="0.72 0.57 0.003" rgba="0.00 0.35 0.40 0.35" contype="0" conaffinity="0"/>
+  </worldbody>
+</mujoco>

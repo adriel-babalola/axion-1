@@ -1,0 +1,2802 @@
+[
+  {
+    "timestamp": 0.0,
+    "intent": "rest",
+    "confidence": 0.81,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 0.5,
+    "intent": "flex",
+    "confidence": 0.84,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 1.0,
+    "intent": "rest",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 1.5,
+    "intent": "extend",
+    "confidence": 0.41,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 2.0,
+    "intent": "rest",
+    "confidence": 0.85,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 2.5,
+    "intent": "flex",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 3.0,
+    "intent": "rest",
+    "confidence": 0.82,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 3.5,
+    "intent": "flex",
+    "confidence": 0.37,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 4.0,
+    "intent": "rest",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 4.5,
+    "intent": "flex",
+    "confidence": 0.91,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 5.0,
+    "intent": "rest",
+    "confidence": 0.52,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 5.5,
+    "intent": "extend",
+    "confidence": 0.72,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 6.0,
+    "intent": "rest",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 6.5,
+    "intent": "flex",
+    "confidence": 0.52,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 7.0,
+    "intent": "rest",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 7.5,
+    "intent": "extend",
+    "confidence": 0.84,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 8.0,
+    "intent": "rest",
+    "confidence": 0.84,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 8.5,
+    "intent": "flex",
+    "confidence": 0.48,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 9.0,
+    "intent": "rest",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 9.5,
+    "intent": "extend",
+    "confidence": 0.65,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 10.0,
+    "intent": "rest",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 10.5,
+    "intent": "flex",
+    "confidence": 0.98,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 11.0,
+    "intent": "rest",
+    "confidence": 0.66,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 11.5,
+    "intent": "extend",
+    "confidence": 0.94,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 12.0,
+    "intent": "rest",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 12.5,
+    "intent": "flex",
+    "confidence": 0.78,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 13.0,
+    "intent": "rest",
+    "confidence": 0.5,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 13.5,
+    "intent": "extend",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 14.0,
+    "intent": "rest",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 14.5,
+    "intent": "flex",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 15.0,
+    "intent": "rest",
+    "confidence": 0.69,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 15.5,
+    "intent": "extend",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 16.0,
+    "intent": "rest",
+    "confidence": 0.62,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 16.5,
+    "intent": "flex",
+    "confidence": 0.49,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 17.0,
+    "intent": "rest",
+    "confidence": 0.6,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 17.5,
+    "intent": "extend",
+    "confidence": 0.74,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 18.0,
+    "intent": "rest",
+    "confidence": 0.91,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 18.5,
+    "intent": "flex",
+    "confidence": 0.58,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 19.0,
+    "intent": "rest",
+    "confidence": 0.59,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 19.5,
+    "intent": "extend",
+    "confidence": 0.97,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 20.0,
+    "intent": "rest",
+    "confidence": 0.58,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 20.5,
+    "intent": "flex",
+    "confidence": 0.49,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 21.0,
+    "intent": "rest",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 21.5,
+    "intent": "extend",
+    "confidence": 0.53,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 22.0,
+    "intent": "rest",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 22.5,
+    "intent": "flex",
+    "confidence": 0.95,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 23.0,
+    "intent": "rest",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 23.5,
+    "intent": "extend",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 24.0,
+    "intent": "rest",
+    "confidence": 0.69,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 24.5,
+    "intent": "flex",
+    "confidence": 0.69,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 25.0,
+    "intent": "rest",
+    "confidence": 0.88,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 25.5,
+    "intent": "extend",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 26.0,
+    "intent": "rest",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 26.5,
+    "intent": "flex",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 27.0,
+    "intent": "rest",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 27.5,
+    "intent": "extend",
+    "confidence": 0.68,
+    "source_weights": {
+      "eeg": 0.6,
+      "emg": 0.4
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 28.0,
+    "intent": "rest",
+    "confidence": 0.91,
+    "source_weights": {
+      "eeg": 0.59,
+      "emg": 0.41
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 28.5,
+    "intent": "flex",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 29.0,
+    "intent": "rest",
+    "confidence": 0.67,
+    "source_weights": {
+      "eeg": 0.59,
+      "emg": 0.41
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 29.5,
+    "intent": "extend",
+    "confidence": 0.6,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 30.0,
+    "intent": "rest",
+    "confidence": 0.79,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 30.5,
+    "intent": "flex",
+    "confidence": 0.74,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 31.0,
+    "intent": "rest",
+    "confidence": 0.68,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 31.5,
+    "intent": "extend",
+    "confidence": 0.79,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 32.0,
+    "intent": "rest",
+    "confidence": 0.88,
+    "source_weights": {
+      "eeg": 0.63,
+      "emg": 0.37
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 32.5,
+    "intent": "flex",
+    "confidence": 0.93,
+    "source_weights": {
+      "eeg": 0.63,
+      "emg": 0.37
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 33.0,
+    "intent": "rest",
+    "confidence": 0.59,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 33.5,
+    "intent": "extend",
+    "confidence": 0.92,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 34.0,
+    "intent": "rest",
+    "confidence": 0.66,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 34.5,
+    "intent": "flex",
+    "confidence": 0.67,
+    "source_weights": {
+      "eeg": 0.65,
+      "emg": 0.35
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 35.0,
+    "intent": "rest",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 35.5,
+    "intent": "rest",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 36.0,
+    "intent": "rest",
+    "confidence": 0.52,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 36.5,
+    "intent": "flex",
+    "confidence": 0.63,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 37.0,
+    "intent": "rest",
+    "confidence": 0.57,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 37.5,
+    "intent": "extend",
+    "confidence": 0.75,
+    "source_weights": {
+      "eeg": 0.68,
+      "emg": 0.32
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 38.0,
+    "intent": "rest",
+    "confidence": 0.8,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 38.5,
+    "intent": "flex",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 39.0,
+    "intent": "rest",
+    "confidence": 0.76,
+    "source_weights": {
+      "eeg": 0.68,
+      "emg": 0.32
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 39.5,
+    "intent": "extend",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 40.0,
+    "intent": "rest",
+    "confidence": 0.67,
+    "source_weights": {
+      "eeg": 0.69,
+      "emg": 0.31
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 40.5,
+    "intent": "rest",
+    "confidence": 0.8,
+    "source_weights": {
+      "eeg": 0.71,
+      "emg": 0.29
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 41.0,
+    "intent": "rest",
+    "confidence": 0.5,
+    "source_weights": {
+      "eeg": 0.72,
+      "emg": 0.28
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 41.5,
+    "intent": "extend",
+    "confidence": 0.78,
+    "source_weights": {
+      "eeg": 0.74,
+      "emg": 0.26
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 42.0,
+    "intent": "rest",
+    "confidence": 0.57,
+    "source_weights": {
+      "eeg": 0.74,
+      "emg": 0.26
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 42.5,
+    "intent": "rest",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.74,
+      "emg": 0.26
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 43.0,
+    "intent": "rest",
+    "confidence": 0.63,
+    "source_weights": {
+      "eeg": 0.78,
+      "emg": 0.22
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 43.5,
+    "intent": "extend",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.8,
+      "emg": 0.2
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 44.0,
+    "intent": "rest",
+    "confidence": 0.62,
+    "source_weights": {
+      "eeg": 0.81,
+      "emg": 0.19
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 44.5,
+    "intent": "rest",
+    "confidence": 0.47,
+    "source_weights": {
+      "eeg": 0.81,
+      "emg": 0.19
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 45.0,
+    "intent": "rest",
+    "confidence": 0.58,
+    "source_weights": {
+      "eeg": 0.81,
+      "emg": 0.19
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 45.5,
+    "intent": "extend",
+    "confidence": 0.66,
+    "source_weights": {
+      "eeg": 0.85,
+      "emg": 0.15
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 46.0,
+    "intent": "rest",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.86,
+      "emg": 0.14
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 46.5,
+    "intent": "flex",
+    "confidence": 0.95,
+    "source_weights": {
+      "eeg": 0.86,
+      "emg": 0.14
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 47.0,
+    "intent": "flex",
+    "confidence": 0.51,
+    "source_weights": {
+      "eeg": 0.87,
+      "emg": 0.13
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 47.5,
+    "intent": "extend",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.85,
+      "emg": 0.15
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 48.0,
+    "intent": "rest",
+    "confidence": 0.9,
+    "source_weights": {
+      "eeg": 0.9,
+      "emg": 0.1
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 48.5,
+    "intent": "flex",
+    "confidence": 0.95,
+    "source_weights": {
+      "eeg": 0.92,
+      "emg": 0.08
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 49.0,
+    "intent": "rest",
+    "confidence": 0.83,
+    "source_weights": {
+      "eeg": 0.92,
+      "emg": 0.08
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 49.5,
+    "intent": "extend",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.93,
+      "emg": 0.07
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 50.0,
+    "intent": "rest",
+    "confidence": 0.69,
+    "source_weights": {
+      "eeg": 0.93,
+      "emg": 0.07
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 50.5,
+    "intent": "rest",
+    "confidence": 0.58,
+    "source_weights": {
+      "eeg": 0.95,
+      "emg": 0.05
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 51.0,
+    "intent": "rest",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.95,
+      "emg": 0.05
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 51.5,
+    "intent": "extend",
+    "confidence": 0.97,
+    "source_weights": {
+      "eeg": 0.96,
+      "emg": 0.04
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 52.0,
+    "intent": "flex",
+    "confidence": 0.49,
+    "source_weights": {
+      "eeg": 0.96,
+      "emg": 0.04
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 52.5,
+    "intent": "flex",
+    "confidence": 0.95,
+    "source_weights": {
+      "eeg": 0.97,
+      "emg": 0.03
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 53.0,
+    "intent": "rest",
+    "confidence": 0.82,
+    "source_weights": {
+      "eeg": 0.97,
+      "emg": 0.03
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 53.5,
+    "intent": "extend",
+    "confidence": 0.73,
+    "source_weights": {
+      "eeg": 0.97,
+      "emg": 0.03
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 54.0,
+    "intent": "extend",
+    "confidence": 0.62,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 54.5,
+    "intent": "flex",
+    "confidence": 0.94,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 55.0,
+    "intent": "rest",
+    "confidence": 0.75,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 55.5,
+    "intent": "extend",
+    "confidence": 0.82,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 56.0,
+    "intent": "rest",
+    "confidence": 0.68,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 56.5,
+    "intent": "flex",
+    "confidence": 0.75,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 57.0,
+    "intent": "rest",
+    "confidence": 0.82,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 57.5,
+    "intent": "extend",
+    "confidence": 0.63,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 58.0,
+    "intent": "extend",
+    "confidence": 0.63,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 58.5,
+    "intent": "flex",
+    "confidence": 0.7,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 59.0,
+    "intent": "rest",
+    "confidence": 0.93,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 59.5,
+    "intent": "rest",
+    "confidence": 0.72,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 60.0,
+    "intent": "rest",
+    "confidence": 0.67,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 60.5,
+    "intent": "flex",
+    "confidence": 0.98,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 61.0,
+    "intent": "rest",
+    "confidence": 0.65,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 61.5,
+    "intent": "extend",
+    "confidence": 0.76,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 62.0,
+    "intent": "flex",
+    "confidence": 0.54,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 62.5,
+    "intent": "rest",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 63.0,
+    "intent": "flex",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 63.5,
+    "intent": "extend",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 64.0,
+    "intent": "extend",
+    "confidence": 0.59,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 64.5,
+    "intent": "flex",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 65.0,
+    "intent": "extend",
+    "confidence": 0.75,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 65.5,
+    "intent": "extend",
+    "confidence": 0.94,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 66.0,
+    "intent": "extend",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 66.5,
+    "intent": "flex",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 67.0,
+    "intent": "extend",
+    "confidence": 0.99,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 67.5,
+    "intent": "extend",
+    "confidence": 0.9,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 68.0,
+    "intent": "extend",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 68.5,
+    "intent": "flex",
+    "confidence": 0.6,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 69.0,
+    "intent": "rest",
+    "confidence": 0.6,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 69.5,
+    "intent": "extend",
+    "confidence": 0.77,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 70.0,
+    "intent": "extend",
+    "confidence": 0.96,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 70.5,
+    "intent": "flex",
+    "confidence": 0.69,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 71.0,
+    "intent": "extend",
+    "confidence": 0.55,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 71.5,
+    "intent": "extend",
+    "confidence": 0.99,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 72.0,
+    "intent": "extend",
+    "confidence": 0.81,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 72.5,
+    "intent": "rest",
+    "confidence": 0.72,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 73.0,
+    "intent": "extend",
+    "confidence": 0.98,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 73.5,
+    "intent": "extend",
+    "confidence": 0.9,
+    "source_weights": {
+      "eeg": 1.0,
+      "emg": 0.0
+    },
+    "safety_status": "PAUSED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 74.0,
+    "intent": "extend",
+    "confidence": 0.96,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 74.5,
+    "intent": "flex",
+    "confidence": 0.98,
+    "source_weights": {
+      "eeg": 0.98,
+      "emg": 0.02
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 75.0,
+    "intent": "extend",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.95,
+      "emg": 0.05
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 75.5,
+    "intent": "extend",
+    "confidence": 0.97,
+    "source_weights": {
+      "eeg": 0.94,
+      "emg": 0.06
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 76.0,
+    "intent": "extend",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.94,
+      "emg": 0.06
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 76.5,
+    "intent": "flex",
+    "confidence": 0.94,
+    "source_weights": {
+      "eeg": 0.93,
+      "emg": 0.07
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 77.0,
+    "intent": "extend",
+    "confidence": 0.59,
+    "source_weights": {
+      "eeg": 0.92,
+      "emg": 0.08
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 77.5,
+    "intent": "extend",
+    "confidence": 0.96,
+    "source_weights": {
+      "eeg": 0.91,
+      "emg": 0.09
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 78.0,
+    "intent": "extend",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.9,
+      "emg": 0.1
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 78.5,
+    "intent": "flex",
+    "confidence": 0.93,
+    "source_weights": {
+      "eeg": 0.89,
+      "emg": 0.11
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 79.0,
+    "intent": "rest",
+    "confidence": 0.81,
+    "source_weights": {
+      "eeg": 0.88,
+      "emg": 0.12
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 79.5,
+    "intent": "extend",
+    "confidence": 0.51,
+    "source_weights": {
+      "eeg": 0.87,
+      "emg": 0.13
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 80.0,
+    "intent": "extend",
+    "confidence": 0.75,
+    "source_weights": {
+      "eeg": 0.86,
+      "emg": 0.14
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 80.5,
+    "intent": "flex",
+    "confidence": 0.5,
+    "source_weights": {
+      "eeg": 0.85,
+      "emg": 0.15
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 81.0,
+    "intent": "extend",
+    "confidence": 0.8,
+    "source_weights": {
+      "eeg": 0.84,
+      "emg": 0.16
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 81.5,
+    "intent": "extend",
+    "confidence": 0.79,
+    "source_weights": {
+      "eeg": 0.83,
+      "emg": 0.17
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 82.0,
+    "intent": "extend",
+    "confidence": 0.89,
+    "source_weights": {
+      "eeg": 0.81,
+      "emg": 0.19
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 82.5,
+    "intent": "flex",
+    "confidence": 0.8,
+    "source_weights": {
+      "eeg": 0.8,
+      "emg": 0.2
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 83.0,
+    "intent": "extend",
+    "confidence": 0.74,
+    "source_weights": {
+      "eeg": 0.79,
+      "emg": 0.21
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 83.5,
+    "intent": "extend",
+    "confidence": 0.74,
+    "source_weights": {
+      "eeg": 0.77,
+      "emg": 0.23
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 84.0,
+    "intent": "extend",
+    "confidence": 0.81,
+    "source_weights": {
+      "eeg": 0.76,
+      "emg": 0.24
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 84.5,
+    "intent": "flex",
+    "confidence": 0.91,
+    "source_weights": {
+      "eeg": 0.74,
+      "emg": 0.26
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 85.0,
+    "intent": "extend",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.73,
+      "emg": 0.27
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 85.5,
+    "intent": "rest",
+    "confidence": 0.67,
+    "source_weights": {
+      "eeg": 0.72,
+      "emg": 0.28
+    },
+    "safety_status": "DEGRADED",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 86.0,
+    "intent": "rest",
+    "confidence": 0.52,
+    "source_weights": {
+      "eeg": 0.71,
+      "emg": 0.29
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 86.5,
+    "intent": "flex",
+    "confidence": 0.54,
+    "source_weights": {
+      "eeg": 0.7,
+      "emg": 0.3
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 87.0,
+    "intent": "flex",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.7,
+      "emg": 0.3
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 87.5,
+    "intent": "flex",
+    "confidence": 0.43,
+    "source_weights": {
+      "eeg": 0.69,
+      "emg": 0.31
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 88.0,
+    "intent": "flex",
+    "confidence": 0.61,
+    "source_weights": {
+      "eeg": 0.69,
+      "emg": 0.31
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 88.5,
+    "intent": "flex",
+    "confidence": 0.53,
+    "source_weights": {
+      "eeg": 0.68,
+      "emg": 0.32
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 89.0,
+    "intent": "flex",
+    "confidence": 0.68,
+    "source_weights": {
+      "eeg": 0.68,
+      "emg": 0.32
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 89.5,
+    "intent": "flex",
+    "confidence": 0.53,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 90.0,
+    "intent": "rest",
+    "confidence": 0.6,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 90.5,
+    "intent": "flex",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.67,
+      "emg": 0.33
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 91.0,
+    "intent": "flex",
+    "confidence": 0.58,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 91.5,
+    "intent": "flex",
+    "confidence": 0.64,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 92.0,
+    "intent": "flex",
+    "confidence": 0.65,
+    "source_weights": {
+      "eeg": 0.66,
+      "emg": 0.34
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 92.5,
+    "intent": "flex",
+    "confidence": 0.41,
+    "source_weights": {
+      "eeg": 0.65,
+      "emg": 0.35
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 93.0,
+    "intent": "flex",
+    "confidence": 0.62,
+    "source_weights": {
+      "eeg": 0.65,
+      "emg": 0.35
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 93.5,
+    "intent": "flex",
+    "confidence": 0.71,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 94.0,
+    "intent": "flex",
+    "confidence": 0.63,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 94.5,
+    "intent": "flex",
+    "confidence": 0.65,
+    "source_weights": {
+      "eeg": 0.64,
+      "emg": 0.36
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 95.0,
+    "intent": "flex",
+    "confidence": 0.62,
+    "source_weights": {
+      "eeg": 0.63,
+      "emg": 0.37
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 95.5,
+    "intent": "rest",
+    "confidence": 0.38,
+    "source_weights": {
+      "eeg": 0.63,
+      "emg": 0.37
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 0.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 96.0,
+    "intent": "extend",
+    "confidence": 0.39,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 96.5,
+    "intent": "flex",
+    "confidence": 0.56,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 97.0,
+    "intent": "flex",
+    "confidence": 0.57,
+    "source_weights": {
+      "eeg": 0.62,
+      "emg": 0.38
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 97.5,
+    "intent": "flex",
+    "confidence": 0.47,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 98.0,
+    "intent": "flex",
+    "confidence": 0.5,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 98.5,
+    "intent": "flex",
+    "confidence": 0.49,
+    "source_weights": {
+      "eeg": 0.61,
+      "emg": 0.39
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 45.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 99.0,
+    "intent": "extend",
+    "confidence": 0.4,
+    "source_weights": {
+      "eeg": 0.6,
+      "emg": 0.4
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  },
+  {
+    "timestamp": 99.5,
+    "intent": "extend",
+    "confidence": 0.48,
+    "source_weights": {
+      "eeg": 0.6,
+      "emg": 0.4
+    },
+    "safety_status": "ACTIVE",
+    "joint_angles": {
+      "elbow": 10.0,
+      "wrist": -10.0
+    }
+  }
+]

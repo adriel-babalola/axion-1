@@ -1,0 +1,83 @@
+<mujoco model="axion_assistive_arm">
+  <compiler angle="radian" autolimits="true"/>
+  <option timestep="0.002" gravity="0 0 -9.81" integrator="implicitfast" iterations="80" noslip_iterations="0"/>
+
+  <default>
+    <joint damping="4.0" armature="0.08" frictionloss="0.3"/>
+    <geom contype="0" conaffinity="0" margin="0.001"/>
+    <position kp="180" kv="24" ctrllimited="true"/>
+  </default>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512"
+             rgb1="0.10 0.12 0.15" rgb2="0.14 0.16 0.20" mark="edge" markrgb="0.28 0.32 0.38"/>
+    <material name="mat_floor" texture="grid" texrepeat="10 10" texuniform="true" reflectance="0.12"/>
+    <material name="mat_base" rgba="0.10 0.11 0.13 1" specular="0.7" shininess="0.45"/>
+    <material name="mat_joint" rgba="0.16 0.18 0.22 1" specular="0.85" shininess="0.55"/>
+    <material name="mat_arm" rgba="0.84 0.86 0.89 1" specular="0.35" shininess="0.25"/>
+    <material name="mat_accent" rgba="0.00 0.74 0.80 1" specular="0.9" shininess="0.75" emission="0.12"/>
+    <material name="mat_accent2" rgba="0.18 0.46 0.95 1" specular="0.8" shininess="0.6" emission="0.06"/>
+    <material name="mat_ee" rgba="0.95 0.96 0.98 1" specular="0.9" shininess="0.8"/>
+  </asset>
+
+  <worldbody>
+    <light name="top" pos="0.3 0 2.5" dir="0 0 -1" directional="true" diffuse="0.85 0.85 0.88" specular="0.35 0.35 0.35"/>
+    <light name="fill" pos="1.5 -1.5 1.8" dir="-0.6 0.6 -0.5" directional="true" diffuse="0.35 0.38 0.45" specular="0.1 0.1 0.1"/>
+    <light name="rim" pos="-1.2 1.2 1.2" dir="0.7 -0.7 -0.3" directional="true" diffuse="0.22 0.28 0.38" specular="0.05 0.05 0.05"/>
+    <geom name="floor" type="plane" size="3 3 0.05" material="mat_floor" pos="0 0 0"/>
+
+    <body name="mount" pos="0 0 0">
+      <geom name="base_plate" type="cylinder" size="0.12 0.025" pos="0 0 0.025" material="mat_base"/>
+      <geom name="base_column" type="capsule" fromto="0 0 0.05 0 0 0.22" size="0.048" material="mat_base"/>
+      <geom name="base_ring" type="cylinder" size="0.056 0.006" pos="0 0 0.14" material="mat_accent"/>
+      <geom name="shoulder_housing" type="cylinder" pos="0 0 0.22" size="0.055 0.05" quat="0.707107 0.707107 0 0" material="mat_joint"/>
+      <geom name="shoulder_accent" type="cylinder" pos="0 0 0.22" size="0.059 0.006" quat="0.707107 0.707107 0 0" material="mat_accent"/>
+      <site name="base_site" pos="0 0 0.22" size="0.01" rgba="0 0.7 0.8 0.4"/>
+
+      <!-- Upper arm: at rest points straight up (+Z). Positive elbow rotation bends toward +X (forward). -->
+      <body name="upper_arm" pos="0 0 0.22">
+        <joint name="elbow" type="hinge" axis="0 1 0" range="-0.35 1.75" damping="5.0" armature="0.10" frictionloss="0.4"/>
+        <geom name="upper_arm_link" type="capsule" fromto="0 0 0 0 0 0.30" size="0.036" material="mat_arm"/>
+        <geom name="upper_arm_stripe" type="capsule" fromto="0.032 0 0.05 0.032 0 0.25" size="0.005" material="mat_accent2"/>
+        <geom name="elbow_housing" type="cylinder" pos="0 0 0.30" size="0.048 0.044" quat="0.707107 0.707107 0 0" material="mat_joint"/>
+        <geom name="elbow_accent" type="cylinder" pos="0 0 0.30" size="0.052 0.005" quat="0.707107 0.707107 0 0" material="mat_accent"/>
+
+        <body name="forearm" pos="0 0 0.30">
+          <joint name="wrist" type="hinge" axis="0 1 0" range="-0.9 0.9" damping="2.5" armature="0.04" frictionloss="0.2"/>
+          <geom name="forearm_link" type="capsule" fromto="0 0 0 0 0 0.24" size="0.029" material="mat_arm"/>
+          <geom name="forearm_stripe" type="capsule" fromto="0.026 0 0.04 0.026 0 0.20" size="0.004" material="mat_accent2"/>
+          <geom name="wrist_housing" type="cylinder" pos="0 0 0.24" size="0.037 0.034" quat="0.707107 0.707107 0 0" material="mat_joint"/>
+          <geom name="wrist_accent" type="cylinder" pos="0 0 0.24" size="0.040 0.004" quat="0.707107 0.707107 0 0" material="mat_accent"/>
+
+          <body name="end_effector" pos="0 0 0.24">
+            <geom name="ee_mount" type="cylinder" pos="0 0 0.03" size="0.028 0.03" material="mat_joint"/>
+            <geom name="ee_body" type="box" pos="0 0 0.075" size="0.030 0.024 0.030" material="mat_ee"/>
+            <geom name="ee_accent" type="box" pos="0.031 0 0.075" size="0.002 0.020 0.024" material="mat_accent"/>
+            <geom name="ee_finger_l" type="capsule" fromto="0 0.012 0.105 0 0.012 0.145" size="0.008" material="mat_base"/>
+            <geom name="ee_finger_r" type="capsule" fromto="0 -0.012 0.105 0 -0.012 0.145" size="0.008" material="mat_base"/>
+            <geom name="ee_tip" type="sphere" pos="0 0 0.155" size="0.012" material="mat_accent"/>
+            <site name="ee_site" pos="0 0 0.155" size="0.008" rgba="0 0.9 1 1"/>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <position name="elbow_act" joint="elbow" ctrlrange="-0.35 1.75" kp="220" kv="28" forcerange="-80 80"/>
+    <position name="wrist_act" joint="wrist" ctrlrange="-0.9 0.9" kp="120" kv="16" forcerange="-40 40"/>
+  </actuator>
+
+  <sensor>
+    <jointpos name="elbow_pos" joint="elbow"/>
+    <jointpos name="wrist_pos" joint="wrist"/>
+    <jointvel name="elbow_vel" joint="elbow"/>
+    <jointvel name="wrist_vel" joint="wrist"/>
+  </sensor>
+
+  <keyframe>
+    <key name="home" qpos="0 0" ctrl="0 0"/>
+    <key name="flex" qpos="0.785398 0.174533" ctrl="0.785398 0.174533"/>
+    <key name="extend" qpos="0.174533 -0.174533" ctrl="0.174533 -0.174533"/>
+  </keyframe>
+</mujoco>
