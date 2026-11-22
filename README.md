@@ -1,7 +1,8 @@
 # AXION-1 — Adaptive Neuro-Mirroring Interface (MuJoCo Demo)
 
-AXION-1 is a post-stroke assistive BCI rehabilitation concept: **EEG + EMG -> intent/safety decision -> robot arm movement**.  
-Built for the **2026 Neural Village Hackathon**, in collaboration with **MathWorks**.
+AXION-1 is a post-stroke assistive BCI rehabilitation concept: **EEG + EMG -> intent/safety decision -> robot arm movement**.
+
+Built for the **2026 National Neuroscience Technology Hackathon** (*NeuroTech with the North*) organized by **NeuralVillage Healthcare and Technology Ltd.**, in collaboration with **MathWorks**, the **National Mathematical Centre (NMC)**, and **g.tec Medical Engineering**.
 
 This repository contains the MuJoCo simulation layer (Task C). **MuJoCo does not process raw EEG/EMG signals** - it consumes precomputed command decisions from `data/commands.json` and replays them on a 2-DOF assistive arm with safety-aware behavior.
 
@@ -158,10 +159,13 @@ Custom **2-DOF assistive manipulator** (vendored MJCF, no external model depende
 
 ## Hackathon Context
 
-- **Event**: 2026 Neural Village Hackathon
-- **Collaboration**: MathWorks
-- **Project theme**: Assistive neurotechnology / motor rehabilitation interface
-- **Current demo scope**: MuJoCo replay of precomputed multimodal decisions (Task C), with safety-state visualization
+- **Event**: National Neuroscience Technology Hackathon 2026 (*NeuroTech with the North 2026*)
+- **Lead organiser**: NeuralVillage Healthcare and Technology Ltd.
+- **Strategic partners**: National Mathematical Centre (NMC), MathWorks, g.tec Medical Engineering
+- **Programme theme**: *Building the Next Generation of Nigerian Neurotechnology Innovators*
+- **Technical theme**: *From Brain Data to Neurotechnology: Building Innovative Solutions for Nigeria's Brain Health Future*
+- **Relevant tracks**: Neurotechnology (BCI/assistive), AI & Brain Data, Computational Neuroscience, Brain Health
+- **AXION-1 focus**: Assistive BCI for post-stroke motor rehabilitation — EEG/EMG intent decoding, adaptive fusion, safety interlocks, and MuJoCo arm replay demo
 
 ## Limitations & Next Steps
 
